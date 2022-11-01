@@ -1,0 +1,39 @@
+.footer {
+  padding: 60px 0;
+  .logo {
+    width: 150px;
+    height: 150px;
+    img {
+      width: 100%;
+    }
+  }
+  .footer__info {
+    margin-bottom: 10px;
+    span {
+      font-weight: 500;
+    }
+  }
+  .social {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    > a {
+      width: 30px;
+      height: 30px;
+      background-color: #7B849C;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+    }
+  }
+  .footer__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .footer__link {
+    margin-top: 15px;
+    color: #282F42;
+    display: block;
+  }
+}
